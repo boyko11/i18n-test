@@ -2,7 +2,14 @@
 
   "dictionary": {
     "index": {
-    	"greeting" : "Hey There Good Donkeys"
+    	"greeting" : "Hey There Good Donkeys EN-US",
+    	"intro" : "What a donkey day it is today",
+    	"stableName" : "Stable Name: ",
+    	"stableLocation" : "Stable Location: ",
+    	"donkeyListLabel" : " Here are your stable's donkeys:",
+    	"temper" : "Temper: ",
+    	"weight" : "Weight: ",
+    	"height" : "Height"
      },
     "page1": "Page One",
     "page2": "Page Two"

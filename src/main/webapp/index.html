@@ -10,23 +10,23 @@
 
 <h1 data-i18n="dictionary.index.greeting"></h1>
 
-<p>What a donkey day it is today, isn't it</p>
+<p data-i18n="dictionary.index.intro"></p>
 
 <div id="stable-template-populated">
 </div>
 <script id="stable-template" type="text/x-handlebars-template">
     <div class="stable-class">
-      <div>Stable Name: {{name}}</div>
-      <div>Stable Location: {{location}}</div>
+      <div><span>{{i18next "dictionary.index.stableName"}}</span> {{name}}</div>
+      <div>{{i18next "dictionary.index.stableLocation"}} {{location}}</div>
     </div>
     <div>
-		<div> Here are your stable's donkeys: </div>
+		<div>{{i18next "dictionary.index.donkeyListLabel"}}</div>
 		{{#donkeys}}
 			<dl>
   			  <dt><strong>{{name}}</strong></dt>
-              <dd>Temper: {{temper}}</dd>
-              <dd>Weight: {{weight}}</dd>
-              <dd>Height: {{height}}</dd>
+              <dd><span>{{i18next "dictionary.index.temper"}}</span> {{temper}}</dd>
+              <dd>{{i18next "dictionary.index.weight"}} {{weight}}</dd>
+              <dd>{{i18next "dictionary.index.height"}} {{height}}</dd>
             </dl>
         {{/donkeys}}
     </div>

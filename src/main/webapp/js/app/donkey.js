@@ -7,6 +7,12 @@ $(document).ready(function() {
 		  // programatical access
 		  //var appName = t("app.name");
 		});
+	   
+	   Handlebars.registerHelper('i18next', function(i18n_key) {
+	       var result = i18n.t(i18n_key);
+	      
+	       return new Handlebars.SafeString(result);
+	     });
 
 		$.ajax({
 			url : "/i18n-test/stable",
