@@ -1,0 +1,10 @@
+{
+
+  "dictionary": {
+    "index": {
+    	"greeting" : "Hey There Good Donkeys"
+     },
+    "page1": "Page One",
+    "page2": "Page Two"
+  }
+}

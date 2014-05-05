@@ -1,0 +1,32 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <filter>
+  	<filter-name>UTF8Filter</filter-name>
+  	<display-name>UTF8Filter</display-name>
+  	<description></description>
+  	<filter-class>i18n.test.filter.UTF8Filter</filter-class>
+  </filter>
+  <filter-mapping>
+  	<filter-name>UTF8Filter</filter-name>
+  	<url-pattern>/*</url-pattern>
+  </filter-mapping>
+  <servlet>
+  	<servlet-name>StableServlet</servlet-name>
+  	<display-name>StableServlet</display-name>
+  	<description></description>
+  	<servlet-class>i18n.test.servlet.StableServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>StableServlet</servlet-name>
+  	<url-pattern>/stable</url-pattern>
+  </servlet-mapping>
+  
+  <welcome-file-list>
+  	<welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+
+</web-app>
