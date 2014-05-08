@@ -1,0 +1,17 @@
+{
+
+  "dictionary": {
+    "index": {
+        "greeting" : "Здравей Добри Магарета BG",
+        "intro" : "Какво магаре ден е днес",
+        "stableName" : "име на конюшнята : ",
+        "stableLocation" : "къде e  конюшнята: ",
+        "donkeyListLabel" : " Лист на магаретата:",
+        "temper" : "нрав: ",
+        "weight" : "тегло: ",
+        "height" : "височина"
+     },
+    "page1": "Page One",
+    "page2": "Page Two"
+  }
+}
